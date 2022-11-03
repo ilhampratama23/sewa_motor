@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.sewavespa">
+    package="com.example.sewavespa" >
 
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,7 +18,10 @@
         android:theme="@style/Theme.SewaVespa"
         android:usesCleartextTraffic="false"
         tools:replace="android:allowBackup"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".prosespesanan"
+            android:exported="false" />
         <activity
             android:name=".homecustomer"
             android:exported="true" >

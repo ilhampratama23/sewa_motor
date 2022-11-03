@@ -36,10 +36,12 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="550dp"
+        android:background="@color/blue"
         android:orientation="horizontal">
 
 
         <LinearLayout
+            android:layout_marginTop="22dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="6"
@@ -49,17 +51,22 @@
                 android:id="@+id/nama_riwayat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="tttt" />
+                android:textColor="@color/white"
+                android:text="Vespa Sprint" />
 
             <TextView
                 android:id="@+id/harga_riwayat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="tttt" />
+                android:padding="10dp"
+                android:text="Proses"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
         <Button
+            android:layout_marginTop="32dp"
             android:id="@+id/lihat"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
@@ -105,6 +112,7 @@
         android:layout_height="110dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="60dp"
+        android:background="@color/yelow"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="324dp"
@@ -112,6 +120,7 @@
 
 
         <LinearLayout
+            android:layout_marginTop="22dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="6"
@@ -121,17 +130,20 @@
                 android:id="@+id/nama_riwayat2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="tttt" />
+                android:text="vespa Srint" />
 
             <TextView
                 android:id="@+id/harga_riwayat2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="tttt" />
+               android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Selesai" />
 
         </LinearLayout>
 
         <Button
+            android:layout_marginTop="32dp"
             android:id="@+id/lihat2"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
